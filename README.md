@@ -55,6 +55,7 @@ The "Hazardous" class was the highest difference between precision and recall sh
 This is how the default neural network performed from the accuracy, loss and classification report:
 
 Test Accuracy: 0.9540
+
 Test Loss: 0.1276
 
 Classification Report:
