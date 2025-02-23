@@ -12,7 +12,7 @@ For instance, the model can assist in informing policies like advising vulnerabl
 Additionally, CleanAir Sentinel can enable NGOs and local governments to better allocate resources and take preventative measures, which will improve public health outcomes and air quality management throughout the continent.
 
 ## The dataset
-The dataset used for this project can be found on Kaggle by following [this link](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment)
+The dataset used for this project can be found on Kaggle by following [this link.](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment)
 The dataset consists of various air quality parameters collected from monitoring stations, combined with external factors influencing pollution levels. It includes:
 
 Air Pollution Indicators: PM2.5, PM10, NO₂, SO₂, CO.
