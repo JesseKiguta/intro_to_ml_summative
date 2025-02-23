@@ -15,10 +15,11 @@ Additionally, CleanAir Sentinel can enable NGOs and local governments to better 
 The dataset used for this project can be found on Kaggle by following [this link.](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment)
 The dataset consists of various air quality parameters collected from monitoring stations, combined with external factors influencing pollution levels. It includes:
 
-Air Pollution Indicators: PM2.5, PM10, NO₂, SO₂, CO.
-Weather Conditions: Temperature, Humidity.
-Human factors: Population density and industrial zone proximity.
-Health Risk Classification: Target variable indicating air quality categories (Good, Moderate, Poor, Hazardous) via one-hot encoding.
+1. Air Pollution Indicators: PM2.5, PM10, NO₂, SO₂, CO.
+2. Weather Conditions: Temperature, Humidity.
+3. Human factors: Population density and industrial zone proximity.
+4. Health Risk Classification: Target variable indicating air quality categories (Good, Moderate, Poor, Hazardous) via one-hot encoding.
+
 The model processes this data using classification algorithms (SVM, Neural Networks) to predict risk levels.
 
 ## ML Models
