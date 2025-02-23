@@ -79,10 +79,10 @@ This table contains different instances with different combinations of regulariz
 ![Screenshot 2025-02-23 225711](https://github.com/user-attachments/assets/78e2d6af-f5cf-430b-8365-7e588bf06c9b)
 
 Based on the table, the 2nd and 5th instance performed equally well. The worst performing model was the 4th. 
-Ultimately the 5th instance was selected to be the best model overall because of its loss graph and would be the recommended model for deployment.
+Ultimately, the 5th instance was selected to be the best model overall because of its loss graph. It would be the recommended model for deployment.
 
 ## Accessing the model
-All the models can be easily accessed and used by running the cells in the notebook in your preferred environment (Colabs, Jupyter Notebook, VS Code, etc)
+All the models can be easily accessed and used by running the cells in the notebook in your preferred environment (Colabs, Jupyter Notebook, VS Code, etc.)
 
 ## Demo Video Link
 [Jesse's Demo](https://drive.google.com/file/d/1KSRRMeJ3kagmtQwdmLKaKmYaaGuScLPi/view?usp=sharing)
