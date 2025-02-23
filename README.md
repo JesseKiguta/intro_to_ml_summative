@@ -33,16 +33,18 @@ Grid searching was used to find the optimal hyperparameters for the SVM, these w
 Below is the accuracy the model was able to achieve as well as the classification report:
 
 Accuracy: 0.9440
-              precision    recall  f1-score   support
 
-        Good       1.00      1.00      1.00       409
-    Moderate       0.95      0.96      0.96       294
-        Poor       0.84      0.88      0.86       186
-   Hazardous       0.91      0.81      0.86       111
+Classification Report:
 
-    accuracy                           0.94      1000
-   macro avg       0.92      0.91      0.92      1000
-weighted avg       0.94      0.94      0.94      1000
+| Class       | Precision | Recall | F1-score | Support |
+|------------|-----------|--------|----------|---------|
+| Good       | 1.00      | 1.00   | 1.00     | 409     |
+| Moderate   | 0.95      | 0.96   | 0.96     | 294     |
+| Poor       | 0.84      | 0.88   | 0.86     | 186     |
+| Hazardous  | 0.91      | 0.81   | 0.86     | 111     |
+| **Accuracy** |         |        | **0.94** | 1000    |
+| Macro avg  | 0.92      | 0.91   | 0.92     | 1000    |
+| Weighted avg | 0.94    | 0.94   | 0.94     | 1000    |
 
 From these statistics, we can observe that the model is performing well, with an accuracy and f1 score of 0.94.
 It is able to predict the "Good" category with perfect accuracy and the lowest score is recall for the "Harazdous" category at 0.81.
@@ -55,16 +57,16 @@ Test Accuracy: 0.9540
 Test Loss: 0.1276
 
 Classification Report:
-              precision    recall  f1-score   support
 
-        Good       1.00      1.00      1.00       409
-    Moderate       0.98      0.96      0.97       294
-        Poor       0.86      0.90      0.88       186
-   Hazardous       0.89      0.86      0.88       111
-
-    accuracy                           0.95      1000
-   macro avg       0.93      0.93      0.93      1000
-weighted avg       0.95      0.95      0.95      1000
+| Class       | Precision | Recall | F1-score | Support |
+|------------|-----------|--------|----------|---------|
+| Good       | 1.00      | 1.00   | 1.00     | 409     |
+| Moderate   | 0.98      | 0.96   | 0.97     | 294     |
+| Poor       | 0.86      | 0.90   | 0.88     | 186     |
+| Hazardous  | 0.89      | 0.86   | 0.88     | 111     |
+| **Accuracy** |         |        | **0.95** | 1000    |
+| Macro avg  | 0.93      | 0.93   | 0.93     | 1000    |
+| Weighted avg | 0.95    | 0.95   | 0.95     | 1000    |
 
 Compared to the SVM, the neural network is performing slightly better with minimal optimization. It's accuracy is higher by 0.1 at 0.95, and
 it's better at predicting the "Hazardous" category with an F1 score of 0.88 compared to 0.86 as well as a recall of 0.86 versus 0.81.
@@ -81,3 +83,4 @@ Ultimately the 5th instance was selected to be the best model overall because of
 All the models can be easily accessed and used by running the cells in the notebook in your preferred environment (Colabs, Jupyter Notebook, VS Code, etc)
 
 ## Demo Video Link
+![Jesse's Demo](https://drive.google.com/file/d/1KSRRMeJ3kagmtQwdmLKaKmYaaGuScLPi/view?usp=sharing)
