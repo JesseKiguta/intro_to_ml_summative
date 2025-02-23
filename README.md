@@ -83,4 +83,4 @@ Ultimately the 5th instance was selected to be the best model overall because of
 All the models can be easily accessed and used by running the cells in the notebook in your preferred environment (Colabs, Jupyter Notebook, VS Code, etc)
 
 ## Demo Video Link
-![Jesse's Demo](https://drive.google.com/file/d/1KSRRMeJ3kagmtQwdmLKaKmYaaGuScLPi/view?usp=sharing)
+[Jesse's Demo](https://drive.google.com/file/d/1KSRRMeJ3kagmtQwdmLKaKmYaaGuScLPi/view?usp=sharing)
