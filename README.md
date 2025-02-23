@@ -78,7 +78,8 @@ it's better at predicting the "Hazardous" category with an F1 score of 0.88 comp
 This table contains different instances with different combinations of regularizers and optimizers to compare performance with the default neural network.
 ![Screenshot 2025-02-23 225711](https://github.com/user-attachments/assets/78e2d6af-f5cf-430b-8365-7e588bf06c9b)
 
-Based on the table, the 2nd and 5th instance performed equally well. The worst performing model was the 4th. 
+Based on the table, the 1st and 5th instance performed equally well by having the same accuracy (95.4%) and had the highest F1 scores(0.95). The 2nd and 3rd model also performed very well but were slightly outperformed by the leading models as their F1 scores were lower by 0.02 The 2nd model had the highest accuracy of all the models at 95.6%. The worst performing model was the 4th with it's F1 score at 0.79 and accuracy of 87.4% lagging considerably behind the rest of the models. This model had a lower recall score of 0.78 compared to its precision score of 0.85 suggesting that this model was struggling to generalize.
+
 Ultimately, the 5th instance was selected to be the best model overall because of its loss graph. It would be the recommended model for deployment.
 
 ## Accessing the model
